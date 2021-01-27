@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "pm2": "pm2 start --name nextDemo npm -- start",
+    "deploy": "npm run build && npm run pm2",
+    "restart": "npm run build && pm2 restart nextDemo"
   },
   "dependencies": {
     "next": "10.0.5",

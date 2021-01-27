@@ -1,7 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
+import { message } from "../components/message";
+
 import styles from "../styles/Home.module.css";
 function Page({ stars }) {
+  const onMessage = () => {
+    message("message" + ~~(Math.random() * 100));
+  };
   return (
     <>
       <Head>
@@ -16,6 +21,9 @@ function Page({ stars }) {
           <Link href="/about">
             <a className="btn">about</a>
           </Link>
+          <button className="btn ml-10" type="button" onClick={onMessage}>
+            msg
+          </button>
         </div>
       </main>
     </>
