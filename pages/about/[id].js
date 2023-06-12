@@ -14,12 +14,8 @@ export default function Page() {
       </Head>
       <main className="container mx-auto">
         <p className="py-10">query: {id}</p>
-        <Link href="/">
-          <a className="btn">home</a>
-        </Link>
-        <Link href="/about">
-          <a className="btn ml-10">about</a>
-        </Link>
+        <Link href="/">home</Link>
+        <Link href="/about">about</Link>
       </main>
     </>
   );

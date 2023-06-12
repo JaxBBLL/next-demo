@@ -11,17 +11,15 @@
     "restart": "npm run build && pm2 restart nextDemo"
   },
   "dependencies": {
-    "next": "10.0.5",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "tailwindcss": "^1.9.6"
+    "next": "13.4.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.3",
-    "postcss": "^8.2.4",
-    "postcss-custom-properties": "^11.0.0",
-    "postcss-import": "^14.0.0",
-    "postcss-nested": "^5.0.3"
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.23",
+    "sass": "1.62.1",
+    "tailwindcss": "3.3.2"
   },
   "browserslist": {
     "production": [

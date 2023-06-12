@@ -10,9 +10,7 @@ export default function Page() {
       </Head>
       <main className="container mx-auto">
         <h1>about page</h1>
-        <Link href="/about/1">
-          <a className="btn">detail</a>
-        </Link>
+        <Link href="/about/1">detail</Link>
       </main>
     </>
   );

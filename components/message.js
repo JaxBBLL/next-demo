@@ -51,7 +51,7 @@ export function Message(props) {
     }, 2000);
   }, [unmount]);
   return (
-    <div className="inline-block rounded px-15 py-5 mt-15 bg-gray-200 shadow">
+    <div className="inline-block py-5 bg-gray-200 rounded shadow px-15 mt-15">
       {content}
     </div>
   );
